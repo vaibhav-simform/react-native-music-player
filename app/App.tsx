@@ -1,11 +1,12 @@
 import React, {FC} from 'react';
-import {Text, View} from 'react-native';
+import {SafeAreaView} from 'react-native';
+import {MusicPlayerControls} from './components';
 
 const App: FC = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <SafeAreaView>
+      <MusicPlayerControls />
+    </SafeAreaView>
   );
 };
 
